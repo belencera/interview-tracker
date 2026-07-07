@@ -1,0 +1,54 @@
+.job-card {
+  position: relative;
+  margin-top: 16px;
+  padding: 24px;
+  border-radius: 18px;
+  background: linear-gradient(180deg, #071827 0%, #0a1b2f 100%);
+  border: 1px solid #1e293b;
+}
+
+.status-badge {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.status-solicitada {
+  background: #38bdf8;
+  color: #0f172a;
+}
+
+.status-entrevista {
+  background: #fb923c;
+  color: #0f172a;
+}
+
+.status-oferta {
+  background: #34d399;
+  color: #0f172a;
+}
+
+.status-rechazada {
+  background: #f87171;
+  color: #0f172a;
+}
+
+.job-card h3 {
+  margin: 0 0 10px;
+  color: #e6f2ff;
+}
+
+.job-card p {
+  margin: 8px 0;
+  color: #cbd5e1;
+}
+
+.job-card p strong {
+  color: #e2e8f0;
+}

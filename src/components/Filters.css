@@ -1,0 +1,47 @@
+.filters-card {
+  padding: 20px;
+  border-radius: 20px;
+  background: #101826;
+  border: 1px solid #1f2937;
+}
+
+.filters-title {
+  margin: 0 0 18px;
+  font-size: 1rem;
+  color: #dbeafe;
+  letter-spacing: 0.01em;
+}
+
+.filters-container {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.search-section,
+.filters-section {
+  flex: 1;
+  min-width: 220px;
+}
+
+.search-section label,
+.filters-section label {
+  display: block;
+  color: #cbd6e8;
+  font-size: 0.95rem;
+}
+
+.search-input,
+.status-select {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid #24303f;
+  background: #071024;
+  color: #e6eefc;
+  margin-top: 8px;
+}
+
+.search-input::placeholder {
+  color: #94a3b8;
+}
