@@ -51,16 +51,19 @@
 
 .job-form button {
   width: fit-content;
-  padding: 14px 22px;
+  padding: 12px 22px;
   border-radius: 999px;
-  background: #06b6d4;
-  color: #071024;
+  background: #095374;
+  color: #ffffff;
   font-weight: 700;
   border: none;
   cursor: pointer;
   margin-top: 6px;
+  transition: all 0.2s ease;
 }
 
 .job-form button:hover {
   filter: brightness(1.05);
+  transform: translateY(-1px);
+  background: #00608d;
 }

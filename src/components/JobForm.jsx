@@ -31,7 +31,7 @@ function JobForm() {
           Notas
           <textarea name="notas" rows="3" placeholder="Notas adicionales" />
         </label>
-        <button type="submit">Guardar</button>
+        <button type="submit">Guardar candidatura</button>
       </form>
     </section>
   )

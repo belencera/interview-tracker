@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Header from './components/Header.jsx'
+import Footer from './components/Footer.jsx'
 import Filters from './components/Filters.jsx'
 import JobForm from './components/JobForm.jsx'
 import JobList from './components/JobList.jsx'
@@ -34,6 +35,7 @@ function App() {
         isFormOpen={showForm}
         onToggleForm={() => setShowForm((prev) => !prev)}
       />
+      <Footer />
     </main>
   )
 }

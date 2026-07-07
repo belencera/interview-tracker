@@ -1,0 +1,40 @@
+.app-footer {
+  text-align: center;
+  color: #94a3b8;
+  border-top: 1px solid #1f2937;
+  padding: 12px 0 0;
+  margin-bottom: 0;
+}
+
+.app-footer p {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.app-footer a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  color: #8b9bb4;
+  transition: all 0.2s ease;
+}
+
+.app-footer a:hover,
+.app-footer a:focus-visible {
+  color: #e6f2ff;
+  background: rgba(6, 182, 212, 0.16);
+  box-shadow: 0 0 0 1px rgba(6, 182, 212, 0.2);
+}
+
+.app-footer svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+}

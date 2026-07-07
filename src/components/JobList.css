@@ -18,11 +18,26 @@
 .job-list .toggle-form-button {
   padding: 10px 18px;
   border-radius: 999px;
-  border: 1px solid rgba(6, 182, 212, 0.18);
-  background: rgba(6, 182, 212, 0.08);
+  border: 1px solid transparent;
   color: #e6f2ff;
   cursor: pointer;
   font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.job-list .toggle-form-button.is-closed {
+  background: rgba(6, 182, 212, 0.12);
+  border-color: rgba(6, 182, 212, 0.24);
+}
+
+.job-list .toggle-form-button.is-open {
+  background: rgba(248, 113, 113, 0.14);
+  border-color: rgba(248, 113, 113, 0.28);
+}
+
+.job-list .toggle-form-button:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.08);
 }
 
 @media (max-width: 720px) {
