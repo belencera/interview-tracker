@@ -55,6 +55,7 @@
 
 .job-card .job-main {
     min-width: 0;
+    margin-right: 32px;
 }
 
 .job-main p {
@@ -86,6 +87,10 @@
     .job-card-content {
         grid-template-columns: 1fr;
     }
+
+    .job-card .job-main {
+    margin-right: 64px;
+}
 }
 
 .job-actions {
