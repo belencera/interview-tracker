@@ -58,7 +58,7 @@ Cuando buscas trabajo, es fácil perder track de dónde aplicaste, en qué fase 
 - **Node.js** (v14 o superior)
 - **npm** (incluido con Node.js)
 
-### Instalación
+### Opción 1: Ejecutarlo localmente
 
 1. **Clona el repositorio:**
    ```bash
@@ -81,7 +81,15 @@ Cuando buscas trabajo, es fácil perder track de dónde aplicaste, en qué fase 
    http://localhost:5173/
    ```
 
-¡Listo! Ya puedes empezar a usar Interview Tracker. 🎉
+### Opción 2: Desplegarlo en Vercel
+
+1. Sube el proyecto a GitHub
+2. Entra en [Vercel](https://vercel.com)
+3. Conecta tu repositorio
+4. Selecciona el proyecto y haz clic en **Deploy**
+5. Vercel generará una URL pública automáticamente
+
+✅ Tu app quedará disponible online sin necesidad de configurar un servidor.
 
 ---
 
