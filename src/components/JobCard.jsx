@@ -1,8 +1,12 @@
 import './JobCard.css'
 
-function JobCard({ job }) {
+function JobCard({ job, onEdit, onDelete }) {
   return (
     <article className="job-card">
+      <div className="job-actions">
+        <button type="button" className="action-edit" onClick={onEdit} aria-label="Editar">✏️</button>
+        <button type="button" className="action-delete" onClick={onDelete} aria-label="Eliminar">🗑️</button>
+      </div>
       <span className={`status-badge status-${job.estado.toLowerCase()}`}>{job.estado}</span>
       <div className="job-card-content">
         <div className="job-main">

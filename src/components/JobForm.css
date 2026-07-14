@@ -67,3 +67,22 @@
   transform: translateY(-1px);
   background: #00608d;
 }
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.button-secondary {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.06);
+  color: #cbd6e8;
+  padding: 10px 16px;
+  border-radius: 999px;
+}
+
+.button-secondary:hover {
+  background: rgba(255,255,255,0.02);
+  color: #f8fafc;
+}

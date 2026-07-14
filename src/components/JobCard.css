@@ -87,3 +87,41 @@
         grid-template-columns: 1fr;
     }
 }
+
+.job-actions {
+    position: absolute;
+    top: 56px; 
+    right: 12px;
+    display: flex;
+    gap: 6px;
+    z-index: 3;
+}
+
+.job-actions button {
+    background: transparent;
+    border: none;
+    color: #94a3b8;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.14s ease, color 0.14s ease, transform 0.12s ease;
+}
+
+.job-actions button:hover {
+    background: rgba(255,255,255,0.03);
+    color: #e6f2ff;
+    transform: translateY(-2px);
+}
+
+.action-delete:hover {
+    background: rgba(248,113,113,0.12);
+}
+
+.action-edit:hover {
+    background: rgba(56,189,248,0.12);
+}

@@ -1,7 +1,7 @@
 import './JobList.css'
 import JobCard from './JobCard.jsx'
 
-function JobList({ jobs, isFormOpen, onToggleForm }) {
+function JobList({ jobs, isFormOpen, onToggleForm, onEdit, onDelete }) {
   return (
     <section className="job-list">
       <div className="job-list-header">
@@ -15,7 +15,7 @@ function JobList({ jobs, isFormOpen, onToggleForm }) {
         </button>
       </div>
       {jobs.map((job) => (
-        <JobCard key={job.id} job={job} />
+        <JobCard key={job.id} job={job} onEdit={() => onEdit(job)} onDelete={() => onDelete(job.id)} />
       ))}
     </section>
   )
