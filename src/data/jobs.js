@@ -4,7 +4,7 @@ const jobs = [
     empresa: 'Globomatik',
     puesto: 'Frontend Developer',
     estado: 'Solicitada',
-    fecha: '2026-06-15',
+    fecha: '15-06-2026',
     notas: 'Enviado CV, pendiente de respuesta.',
   },
   {
@@ -12,7 +12,7 @@ const jobs = [
     empresa: 'Mercado Azul',
     puesto: 'Desarrollador Full Stack',
     estado: 'Entrevista',
-    fecha: '2026-06-20',
+    fecha: '20-06-2026',
     notas: 'Primera entrevista agendada.',
   },
   {
@@ -20,7 +20,7 @@ const jobs = [
     empresa: 'Consultora Sigma',
     puesto: 'Analista de datos',
     estado: 'Oferta',
-    fecha: '2026-06-10',
+    fecha: '10-06-2026',
     notas: 'Oferta recibida, evaluar salario.',
   },
   {
@@ -28,7 +28,7 @@ const jobs = [
     empresa: 'Tecnologías Cero',
     puesto: 'Ingeniero de software',
     estado: 'Rechazada',
-    fecha: '2026-05-28',
+    fecha: '28-05-2026',
     notas: 'Cerrado tras segunda entrevista.',
   },
 ]

@@ -1,5 +1,11 @@
 import './JobCard.css'
 
+function formatDate(dateString) {
+  if (!dateString) return ''
+  const [year, month, day] = dateString.split('-')
+  return `${day}/${month}/${year}`
+}
+
 function JobCard({ job, onEdit, onDelete }) {
   return (
     <article className="job-card">
@@ -15,7 +21,7 @@ function JobCard({ job, onEdit, onDelete }) {
         </div>
         <div className="job-details">
           <p><strong>Empresa:</strong> {job.empresa}</p>
-          <p><strong>Fecha:</strong> {job.fecha}</p>
+          <p><strong>Fecha:</strong> {formatDate(job.fecha)}</p>
         </div>
       </div>
     </article>

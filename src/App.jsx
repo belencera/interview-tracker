@@ -42,6 +42,8 @@ function App() {
       { ...newJob, id: Date.now() + Math.floor(Math.random() * 1000) },
       ...prev,
     ])
+    setShowForm(false)
+    setEditingJob(null)
   }
 
   const handleDeleteJob = (id) => {
